@@ -385,7 +385,7 @@
                                         <span className="fa fa-spin fa-spinner"/>
                                         : "开始生成"}
                                     &nbsp;&nbsp;{postsAlreadyUploaded} / {postsNeedToUpload}
-                                        </span>
+                                </span>
                             }
                         </button>
 
