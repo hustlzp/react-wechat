@@ -374,7 +374,7 @@
                     </div>
 
                     <div className="col-md-6">
-                        <h2>文章</h2>
+                        <h2>生成文章</h2>
 
                         <button className="btn btn-block btn-primary btn-generate" onClick={this.handleUpload}
                                 disabled={postsNeedToUpload == 0}>

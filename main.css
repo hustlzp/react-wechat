@@ -1,148 +1,188 @@
 #main {
-  font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "\9ED1\4F53", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+    font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "\9ED1\4F53", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
+
 #main img {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
+
+#main h2 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
 #main .table-posts .user-wap .user-avatar {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin-right: 8px;
-  vertical-align: middle;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
 }
+
 #main .table-posts .user-wap .user-name {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 #main .table-posts .content {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 #main .table-posts .work {
-  margin-top: 5px;
+    margin-top: 5px;
 }
+
 #main .table-posts .meta-wap {
-  margin-top: 5px;
+    margin-top: 5px;
 }
+
 #main .table-posts .time {
-  margin-top: 5px;
-  color: gray;
-  font-size: 12px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 12px;
 }
+
 #main .btn-download-audio {
-  margin-top: 15px;
+    margin-top: 15px;
 }
+
 #main .wechat-post {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 #main .wechat-post .content {
-  margin-top: 15px;
+    margin-top: 15px;
 }
+
 #main .wechat-post .work-accessory {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 #main .wechat-post .work-accessory:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
+
 #main .wechat-post .work-accessory .user-wap {
-  text-align: center;
+    text-align: center;
 }
+
 #main .wechat-post .work-accessory .user-wap .avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 1px solid #eee;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #eee;
 }
+
 #main .wechat-post .work-accessory .user-wap .username {
-  margin-top: 8px;
-  color: gray;
+    margin-top: 8px;
+    color: gray;
 }
+
 #main .wechat-post .work-accessory .work-wap {
-  margin-top: 15px;
-  background-color: #89181B;
-  margin-right: 3px;
+    margin-top: 15px;
+    background-color: #89181B;
+    margin-right: 3px;
 }
+
 #main .wechat-post .work-accessory .work-wap .inner-wap {
-  background-color: white;
-  margin-left: 3.5px;
-  margin-right: -3px;
-  padding: 15px;
-  border-top: 1px solid #eee;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+    background-color: white;
+    margin-left: 3.5px;
+    margin-right: -3px;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
+
 #main .wechat-post .work-accessory .work-wap.work-layout-center .inner-wap {
-  padding: 15px 0 15px 13.5px;
+    padding: 15px 0 15px 13.5px;
 }
+
 #main .wechat-post .work-accessory .work-wap .title {
-  font-size: 18px;
-  font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
+
 #main .wechat-post .work-accessory .work-wap .author {
-  margin-top: 8px;
+    margin-top: 8px;
 }
+
 #main .wechat-post .work-accessory .work-wap .content {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 #main .wechat-post .work-accessory .work-wap .content p {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
 #main .wechat-post .work-accessory .work-wap .content p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 #main .wechat-post .work-note .note {
-  margin-top: 20px;
-  line-height: 1.7;
+    margin-top: 20px;
+    line-height: 1.7;
 }
+
 #main .wechat-post .work-writing .text {
-  margin-top: 18px;
-  line-height: 1.7;
+    margin-top: 18px;
+    line-height: 1.7;
 }
+
 #main .wechat-post .work-writing .image-wap {
-  text-align: center;
-  margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
+
 #main .wechat-post .work-writing .image-wap img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 #main .wechat-post .work-audio .text {
-  margin-top: 18px;
-  line-height: 1.7;
+    margin-top: 18px;
+    line-height: 1.7;
 }
+
 #main .wechat-post .work-audio .audio {
-  margin-top: 18px;
-  margin-bottom: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
 }
+
 #main .wechat-post .work-audio .audio audio {
-  width: 100%;
+    width: 100%;
 }
+
 #main .footer .gap {
-  text-align: center;
-  padding: 18px 0 40px 0;
+    text-align: center;
+    padding: 18px 0 40px 0;
 }
+
 #main .footer .gap section {
-  height: 2px;
-  width: 35%;
-  background: #eee;
-  display: inline-block;
+    height: 2px;
+    width: 35%;
+    background: #eee;
+    display: inline-block;
 }
+
 #main .footer .market-image {
-  padding-left: 5px;
-  padding-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 #main .footer .market-image img {
-  width: 100%;
+    width: 100%;
 }
+
 #main .footer .tips {
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: 15px;
-  color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    color: gray;
 }
