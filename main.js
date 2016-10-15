@@ -379,11 +379,11 @@
                         <button className="btn btn-block btn-primary btn-generate" onClick={this.handleUpload}
                                 disabled={postsNeedToUpload == 0}>
                             {finish ?
-                                "生成完毕，请按复制键" :
+                                "上传完毕，请按复制键" :
                                 <span>
                                     {loading ?
                                         <span className="fa fa-spin fa-spinner"/>
-                                        : "开始生成"}
+                                        : "上传图片"}
                                     &nbsp;&nbsp;{postsAlreadyUploaded} / {postsNeedToUpload}
                                 </span>
                             }
@@ -391,7 +391,7 @@
 
                         <a className="btn btn-block btn-default btn-download-audio"
                            href={audioUrl ? audioUrl : null} disabled={!hasAudio}>
-                            <span className="fa fa-download"/> 下载音频文件
+                            <span className="fa fa-download"/> 下载音频
                         </a>
 
                         <WechatPost posts={this.state.posts}/>
