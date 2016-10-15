@@ -1,0 +1,26 @@
+{
+  "name": "react-wechat",
+  "version": "1.0.0",
+  "description": "Compose WeChat Official Account Post via React.",
+  "main": "wechat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hustlzp/react-wechat.git"
+  },
+  "author": "hustlzp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hustlzp/react-wechat/issues"
+  },
+  "homepage": "https://github.com/hustlzp/react-wechat#readme",
+  "dependencies": {
+    "babel-standalone": "^6.17.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "react": "^15.4.0-rc.4",
+    "react-dom": "^15.4.0-rc.4"
+  }
+}
