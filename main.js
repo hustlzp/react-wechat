@@ -309,7 +309,6 @@
             }
 
             return $.ajax({
-                method: 'post',
                 url: "upload_image_result.json",
                 data: {
                     url: url
@@ -377,7 +376,8 @@
                     <div className="col-md-6">
                         <h2>文章</h2>
 
-                        <button className="btn btn-block btn-primary btn-generate" onClick={this.handleUpload}>
+                        <button className="btn btn-block btn-primary btn-generate" onClick={this.handleUpload}
+                                disabled={postsNeedToUpload == 0}>
                             {finish ?
                                 "生成完毕，请按复制键" :
                                 <span>
